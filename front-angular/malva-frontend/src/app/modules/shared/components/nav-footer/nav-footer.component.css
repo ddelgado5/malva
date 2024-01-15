@@ -1,0 +1,70 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.social-media {
+    display: flex;
+    width: 87%;
+    padding: 30px 0;
+}
+
+.client-service {
+    width: 45%;
+}
+
+.our-company {
+    width: 27.5%;
+}
+
+.follow-us {
+    width: 27.5%;
+}
+
+.social-media div ul {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+li a {
+    display: block;
+    color: #949494;
+    font-weight: 400;
+    padding: 0.25rem 0;
+    letter-spacing: 0;
+}
+
+.social-icons {
+    margin-top: 0.5rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 6px;
+    font-size: 16px;
+    width: 17px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .social-icon {
+    background: white;
+    color: black;
+  }

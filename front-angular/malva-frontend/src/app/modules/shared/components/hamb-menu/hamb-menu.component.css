@@ -1,0 +1,52 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.pd {
+    padding-right: 0.8rem;
+}
+
+.image {
+    height: 5.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    height: 5rem;
+}
+
+.menu-mobile {
+    display: flex;
+    justify-content: space-around;
+    height: 3.1rem;
+}
+
+ul {
+    margin: 0.05rem
+}
+
+li {
+    border-top: 1px solid #0f0f0f;
+}
+
+li a {
+    display: block;
+    padding: 17px 23PX;
+    color: white;
+    font-weight: 400;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    width: auto;
+}
